@@ -1,5 +1,6 @@
 body {
   background-color: #E0E2E3;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container-fluid {
@@ -83,12 +84,133 @@ body {
   position: relative;
   height: 15px;
   width: 70px;
-  transform: skew(40deg);
+  transform: skewY(360deg);
+  transform: skewX(40deg);
   background-color: #F72210;
   position: absolute;
   top: 0px;
   right: 0;
 }
+
+/* top-three-categories */
+/* top-stories */
+.section-headings {
+  color: grey;
+  font-size: 18px;
+}
+
+.top-story-image-holder, .feature-story-image-holder {
+  height: 230px;
+  width: 350px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.top-story-image-holder {
+  background: url('https://d.newsweek.com/en/full/1548026/trump-fox-friends-marie-yovanovitch.jpg?w=591&h=364&f=95cacd0f939dc5ab3f8d401e3d91f427');
+}
+
+.feature-story-image-holder {
+  background: url('https://d.newsweek.com/en/full/1560394/nancy-pelosi.jpg?w=397&h=265&q=90&f=e95065a6799ccb310b75607e980e2c86');
+}
+
+.image-internal-label {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  min-width: 55px;
+  height: 30px;
+  background-color: #E0E2E3;
+}
+
+.more-story-unit-img {
+  height: 80px;
+  width: 140px;
+  background: url('https://d.newsweek.com/en/full/1560543/chad-wolf.jpg?w=135&h=90&f=e1e3ecd4d3c07f213cfb142b9514abc7');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.opinioner {
+  height: 65px;
+  width: 75px;
+  border-radius: 50% !important;
+  background: url('https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* LATEST NEWS */
+.latest-news-image-holder {
+  background: url('https://d.newsweek.com/en/full/1560858/houston-astros-baseball-world-series-cheating.jpg?w=397&h=265&f=3ad6dd067c38e96cf864867363f0c93b');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90px;
+  width: 150px;
+}
+
+
+.jumbotron {
+  max-width: 375px !important;
+  max-height: 150px !important;
+}
+.logo-in-jumbotron {
+  background: #F72210;
+  width: 28px;
+  height: 28px;
+}
+
+.custom-N-brand {
+  color: #fff;
+  font-size: 24px;
+}
+
+/* in the mag */
+.month-issue {
+  background: url('https://d.newsweek.com/en/full/1560513/january-24-31-2020-cover.jpg?w=360&h=480&q=90&f=934b1f46e8cfb6967583ca1d5fb3ff5a');
+  position: relative;
+  height: 500px;
+  max-width: 375px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.in-the-mag-pic, .in-the-mag-pic-spec {
+  height: 240px;
+  max-width: 375px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.in-the-mag-pic {
+  background: url('https://d.newsweek.com/en/full/1558983/wirecutter-credit-card-debt.jpg?w=466&h=311&q=90&f=a3bc13ecd27eefb91197a7b7e7d4b8a7');  
+}
+
+.custo-label {
+  background: #F72210;
+  height: 25px;
+  min-width: 55px;
+}
+
+.custo-text {
+  color: #F72210;
+}
+
+.in-the-mag-pic-spec {
+  position: relative;
+  background: url('https://d.newsweek.com/en/full/1559861/night-terror.jpg?w=480&h=320&l=50&t=54&q=90&f=c079c550832cafe96766d3d96494d8ac');
+}
+
+.custo-label-spec {
+  background: #F72210;
+  min-width: 50px;
+  height: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
 
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
