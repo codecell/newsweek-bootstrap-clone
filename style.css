@@ -9,6 +9,10 @@ body {
   max-width: 1310px !important;
 }
 
+.row {
+  margin: 0 auto !important;
+}
+
 .navbar {
   background-color: #F72210 !important;
   height: 50px;
@@ -100,18 +104,20 @@ body {
 }
 
 .top-story-image-holder, .feature-story-image-holder {
-  height: 230px;
-  width: 350px;
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat !important;
   position: relative;
 }
 
 .top-story-image-holder {
+  height: 300px;
+  min-width: 350px;
   background: url('https://d.newsweek.com/en/full/1548026/trump-fox-friends-marie-yovanovitch.jpg?w=591&h=364&f=95cacd0f939dc5ab3f8d401e3d91f427');
 }
 
 .feature-story-image-holder {
+  min-height: 230px;
+  min-width: 60px;
   background: url('https://d.newsweek.com/en/full/1560394/nancy-pelosi.jpg?w=397&h=265&q=90&f=e95065a6799ccb310b75607e980e2c86');
 }
 
@@ -132,13 +138,18 @@ body {
   background-repeat: no-repeat;
 }
 
+.culture-and-travel-bg {
+  background: #F4F5F7;
+}
+
 .opinioner {
-  height: 65px;
-  width: 75px;
-  border-radius: 50% !important;
-  background: url('https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77');
-  background-size: contain;
-  background-repeat: no-repeat;
+  height: 70px !important;
+  width: 88px !important;
+  border-radius: 8% !important;
+  background: url('https://d.newsweek.com/en/full/1503272/ryan-thomas.png?w=63&h=63&f=375a4e1eacacb10b512934749dfad37e');
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: left top;
 }
 
 /* LATEST NEWS */
@@ -153,7 +164,7 @@ body {
 
 .jumbotron {
   max-width: 375px !important;
-  max-height: 150px !important;
+  max-height: 200px !important;
 }
 .logo-in-jumbotron {
   background: #F72210;
@@ -170,21 +181,30 @@ body {
 .month-issue {
   background: url('https://d.newsweek.com/en/full/1560513/january-24-31-2020-cover.jpg?w=360&h=480&q=90&f=934b1f46e8cfb6967583ca1d5fb3ff5a');
   position: relative;
-  height: 500px;
-  max-width: 375px;
+  min-height: 420px;
+  min-width: 60px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.in-the-mag-pic, .in-the-mag-pic-spec {
-  height: 240px;
-  max-width: 375px;
-  background-size: cover;
-  background-repeat: no-repeat;
+/* .in-the-mag-unit {
+  height: 450px;
+} */
+
+.in-the-mag-pic, .in-the-mag-pic-spec,
+.in-the-mag-pic-2 {
+  min-height: 200px;
+  min-width: 60px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 
 .in-the-mag-pic {
   background: url('https://d.newsweek.com/en/full/1558983/wirecutter-credit-card-debt.jpg?w=466&h=311&q=90&f=a3bc13ecd27eefb91197a7b7e7d4b8a7');  
+}
+
+.in-the-mag-pic-2 {
+  background: url('https://d.newsweek.com/en/full/1559828/cul-chanelqanda-56226855-banner.jpg?w=466&h=311&l=47&t=44&q=90&f=306a66391c7914cdddd595b7684108c0');
 }
 
 .custo-label {
@@ -209,6 +229,95 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
+}
+
+/* NW CONVERSATIONS */
+.sections-header-text {
+  font-size: 19px;
+}
+
+.nw-conv-big-img {
+  background: url('https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20');
+  min-height: 300px;
+  min-width: 100px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  position: relative;
+}
+
+.play-label-bg, .play-label-sm {
+  background-color: #F72210;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+}
+
+.play-label-bg {
+  font-size: 45px;
+  min-height: 50px;
+  min-width: 55px;
+}
+
+.play-label-sm {
+  font-size: 25px;
+  min-height: 30px;
+  min-width: 35px;
+}
+
+.dark-bg-col {
+  min-height: 200px;
+  background-color: black;
+}
+
+.dark-bg-col > :first-child {
+  font-size: 26px;
+}
+.svm-1, .svm-2, .svm-3 {
+  background-color: black;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+.smaller-conv-img-1, .smaller-conv-img-2, 
+.smaller-conv-img-3 {
+  position: relative;  
+}
+
+.smaller-conv-capt-1 > p:last-child {
+  color: #555;
+}
+
+.smaller-conv-img-2, .smaller-conv-img-3,
+.smaller-conv-img-1 {
+  height: 95px;
+  min-width: 150px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  position: relative;
+}
+
+.smaller-conv-img-1 {
+  background: url('https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95');
+}
+.smaller-conv-img-3, .smaller-conv-img-2 {
+  background: url('https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg?w=173&h=104&f=64f6b307bd86eb7c5a0a44276471bf7f');
+}
+
+/* EDITOR'S PICK */
+.editors-pick-image-holder, .editors-pick-image-holder-2 {
+  min-height: 200px;
+  min-width: 100px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  position: relative;
+}
+
+.editors-pick-image-holder {
+  background: url('https://d.newsweek.com/en/full/1560898/donald-trump.jpg?w=397&h=295&f=495ab9bdf1d2d40fc57378459adc799d');
+}
+
+.editors-pick-image-holder-2 {
+  background: url('https://d.newsweek.com/en/full/1560658/snooty-honorable-mention-portrait.jpg?w=397&h=295&f=797c73914e0a8ffb89dc548f63ac73bf');
 }
 
 
