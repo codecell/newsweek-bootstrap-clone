@@ -304,7 +304,8 @@ body {
 }
 
 /* EDITOR'S PICK */
-.editors-pick-image-holder, .editors-pick-image-holder-2 {
+.editors-pick-image-holder, .editors-pick-image-holder-2, 
+.fs-img-div, .fs-img-div-2, .fs-img-div-3{
   min-height: 200px;
   min-width: 100px;
   background-size: cover !important;
@@ -319,6 +320,85 @@ body {
 .editors-pick-image-holder-2 {
   background: url('https://d.newsweek.com/en/full/1560658/snooty-honorable-mention-portrait.jpg?w=397&h=295&f=797c73914e0a8ffb89dc548f63ac73bf');
 }
+
+
+/* FEATURED SLIDESHOWS */
+
+.cust-magic-container {
+  position: relative;
+  width: 45px;
+  height: 45px;
+}
+
+.cust-magic-div-1 {
+  position: absolute;
+  background: #F72210;
+  width: 40px;
+  height: 40px;
+  bottom: 2px;
+  right: 0px;
+}
+
+.cust-magic-div-2 {
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  height: 40px;
+  width: 40px;
+  background-color: #F72210;
+  color: #fff;
+  position: absolute;
+  right: 5px;
+  bottom: 6px;
+}
+
+.fs-img-div {
+  background: url('https://d.newsweek.com/en/full/1552749/eyjafjallajokull-iceland.jpg?w=397&h=265&f=ea1ffc67b32c527ef435529cb5bd2dc6');
+}
+
+.fs-img-div-2 {
+  background: url('https://d.newsweek.com/en/full/1534277/nycc-2019-best-cosplay-augustus-st-cloud.jpg?w=397&h=265&l=22&t=27&f=db0895c475d903e09b054be0c3cfb8c5');
+}
+
+.fs-img-div-3 {
+  background: url('https://d.newsweek.com/en/full/1542741/holiday-cups-starbucks.jpg?w=397&h=265&f=cc7b0a58452583ca846051991fe522ce');
+}
+
+.fs-img-logo-holder {
+  background: #E0E2E3;
+  min-width: 75px;
+  height: 55px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.fsh-1, .fsh-2, .fsh-3 {
+  border: 2px solid #F72210;
+  border-bottom: none;
+  height: 30px;
+  width: 45px;
+  position: absolute;
+  background: #E0E2E3;
+  color: #F72210;
+}
+
+.fsh-1 {
+  top: 8px;
+  left: 8px;
+}
+
+.fsh-2 {
+  top: 15px;
+  left: 15px;
+}
+
+.fsh-3 {
+  top: 20px;
+  left: 20px;
+  border-bottom: 2px solid #F72210 !important;
+  font-size: 25px;
+}
+
 
 
 /* MEDIA QUERIES */
