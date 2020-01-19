@@ -400,6 +400,13 @@ body {
 }
 
 /* subscription and newsletter section  */
+.subscribe-jumbo {
+  background-color: #F4F5F6;
+}
+
+.subscribe-jumbo, .newsletter-section-cont {
+  height: 250px;
+}
 
 .btn-subscribe-section {
   background: #F72210;
