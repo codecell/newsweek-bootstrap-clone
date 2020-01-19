@@ -399,7 +399,40 @@ body {
   font-size: 25px;
 }
 
+/* subscription and newsletter section  */
 
+.btn-subscribe-section {
+  background: #F72210;
+  border: 2px solid #F72210;
+  height: 35px;
+  margin: auto 25%;
+}
+
+.red-section-header {
+  color: #F72210;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.subscribe-sect-image-holder {
+  position: relative;
+  margin: 0 20%;
+}
+
+.sub-sect-img-2 {
+  position: absolute;
+}
+
+.sub-sect-img-2 {
+  left: 80px;
+  top: 15px;
+}
+
+.newsletter-img {
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+}
 
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
