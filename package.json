@@ -1,0 +1,25 @@
+{
+  "name": "newsweek-bootstrap-clone",
+  "version": "1.0.0",
+  "description": "This is a clone of the newsweek.com with mostly bootstrap custom classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylelint": "npx stylelint /Users/hp/Desktop/microverse/newsweek-bootstrap-clone/style.css",
+    "stylelint-fix": "npx stylelint /Users/hp/Desktop/microverse/newsweek-bootstrap-clone/style.css --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codecell/newsweek-bootstrap-clone.git"
+  },
+  "author": "Ezaka Alfred N. (codecell)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codecell/newsweek-bootstrap-clone/issues"
+  },
+  "homepage": "https://github.com/codecell/newsweek-bootstrap-clone#readme",
+  "devDependencies": {
+    "stylelint": "^13.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}

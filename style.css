@@ -1,0 +1,549 @@
+body {
+  background-color: #e0e2e3;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer a,
+footer p {
+  color: #666;
+  border-right: 2px solid lightgray;
+  font-size: 14px;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  max-width: 1310px !important;
+}
+
+.row {
+  margin: 0 auto !important;
+}
+
+.navbar {
+  background-color: #f72210 !important;
+  height: 50px;
+  position: relative;
+}
+
+.date-parag-nav {
+  position: absolute;
+  bottom: 0;
+  font-weight: 500;
+}
+
+.navbar-brand-c {
+  font-family: 'Zilla Slab', serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.nw-brand-footer {
+  font-family: 'Zilla Slab', serif;
+  font-weight: 700;
+  font-size: 55px;
+  color: #f72210;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+
+.sign-in-nav {
+  font-size: 14px;
+}
+
+.btn-subscribe-nav {
+  height: 35px;
+}
+
+.btn-subscribe-nav span {
+  font-size: 20px;
+}
+
+.nav-icons-container {
+  width: 200px;
+}
+
+.icon-menu {
+  font-size: 28px !important;
+  color: #e0e2e3;
+}
+
+/* << lower nav-section desktop >> */
+.lower-dexktop-nav {
+  width: 100%;
+  font-size: 22px;
+  position: relative;
+  overflow: hidden;
+}
+
+.lower-dexktop-nav li:hover {
+  color: #f72210;
+}
+
+.lower-dexktop-nav li:last-child:hover {
+  color: #000 !important;
+}
+
+.navbar-search {
+  width: 55px;
+  font-size: 17px;
+}
+
+.navbar-search:focus {
+  outline: none;
+}
+
+.skew-shape {
+  height: 15px;
+  width: 70px;
+  transform: skewY(360deg);
+  transform: skewX(40deg);
+  background-color: #f72210;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* top-three-categories */
+
+/* top-stories */
+.section-headings {
+  color: grey;
+  font-size: 18px;
+}
+
+.top-story-image-holder,
+.feature-story-image-holder {
+  background-size: contain;
+  background-repeat: no-repeat !important;
+  position: relative;
+}
+
+.top-story-image-holder {
+  height: 300px;
+  min-width: 350px;
+  background: url('https://d.newsweek.com/en/full/1548026/trump-fox-friends-marie-yovanovitch.jpg?w=591&h=364&f=95cacd0f939dc5ab3f8d401e3d91f427');
+}
+
+.feature-story-image-holder {
+  min-height: 230px;
+  min-width: 60px;
+  background: url('https://d.newsweek.com/en/full/1560394/nancy-pelosi.jpg?w=397&h=265&q=90&f=e95065a6799ccb310b75607e980e2c86');
+}
+
+.image-internal-label {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  min-width: 55px;
+  height: 30px;
+  background-color: #e0e2e3;
+}
+
+.more-story-unit-img {
+  height: 80px;
+  width: 140px;
+  background: url('https://d.newsweek.com/en/full/1560543/chad-wolf.jpg?w=135&h=90&f=e1e3ecd4d3c07f213cfb142b9514abc7');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.culture-and-travel-bg {
+  background: #f4f5f7;
+}
+
+/* LATEST NEWS */
+.latest-news-image-holder {
+  background: url('https://d.newsweek.com/en/full/1560858/houston-astros-baseball-world-series-cheating.jpg?w=397&h=265&f=3ad6dd067c38e96cf864867363f0c93b');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90px;
+  width: 150px;
+}
+
+.jumbotron {
+  min-width: 200px !important;
+  min-height: 210px !important;
+}
+
+.logo-in-jumbotron {
+  background: #f72210;
+  width: 28px;
+  height: 28px;
+}
+
+.custom-N-brand {
+  color: #fff;
+  font-size: 24px;
+}
+
+/* in the mag */
+.month-issue {
+  background: url('https://d.newsweek.com/en/full/1560513/january-24-31-2020-cover.jpg?w=360&h=480&q=90&f=934b1f46e8cfb6967583ca1d5fb3ff5a');
+  position: relative;
+  min-height: 420px;
+  min-width: 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.in-the-mag-pic,
+.in-the-mag-pic-spec,
+.in-the-mag-pic-2 {
+  min-height: 200px;
+  min-width: 60px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.in-the-mag-pic {
+  background: url('https://d.newsweek.com/en/full/1558983/wirecutter-credit-card-debt.jpg?w=466&h=311&q=90&f=a3bc13ecd27eefb91197a7b7e7d4b8a7');
+}
+
+.in-the-mag-pic-2 {
+  background: url('https://d.newsweek.com/en/full/1559828/cul-chanelqanda-56226855-banner.jpg?w=466&h=311&l=47&t=44&q=90&f=306a66391c7914cdddd595b7684108c0');
+}
+
+.custo-label {
+  background: #f72210;
+  height: 25px;
+  min-width: 55px;
+}
+
+.custo-text {
+  color: #f72210;
+}
+
+.in-the-mag-pic-spec {
+  position: relative;
+  background: url('https://d.newsweek.com/en/full/1559861/night-terror.jpg?w=480&h=320&l=50&t=54&q=90&f=c079c550832cafe96766d3d96494d8ac');
+}
+
+.custo-label-spec {
+  background: #f72210;
+  min-width: 50px;
+  height: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* NW CONVERSATIONS */
+.sections-header-text {
+  font-size: 19px;
+}
+
+.nw-conv-big-img {
+  background: url('https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20');
+  min-height: 300px;
+  min-width: 100px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  position: relative;
+}
+
+.play-label-bg,
+.play-label-sm {
+  background-color: #f72210;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+}
+
+.play-label-bg {
+  font-size: 45px;
+  min-height: 50px;
+  min-width: 55px;
+}
+
+.play-label-sm {
+  font-size: 25px;
+  min-height: 30px;
+  min-width: 35px;
+}
+
+.dark-bg-col {
+  min-height: 200px;
+  background-color: black;
+}
+
+.dark-bg-col > :first-child {
+  font-size: 26px;
+}
+
+.svm-1,
+.svm-2,
+.svm-3 {
+  background-color: black;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+.smaller-conv-capt-1 > p:last-child {
+  color: #555;
+}
+
+.smaller-conv-img-1,
+.smaller-conv-img-2,
+.smaller-conv-img-3 {
+  height: 95px;
+  min-width: 150px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  position: relative;
+}
+
+.smaller-conv-img-1 {
+  background: url('https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95');
+}
+
+.smaller-conv-img-3,
+.smaller-conv-img-2 {
+  background: url('https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg?w=173&h=104&f=64f6b307bd86eb7c5a0a44276471bf7f');
+}
+
+/* EDITOR'S PICK */
+.editors-pick-image-holder,
+.editors-pick-image-holder-2,
+.fs-img-div,
+.fs-img-div-2,
+.fs-img-div-3 {
+  min-height: 200px;
+  min-width: 100px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  position: relative;
+}
+
+.editors-pick-image-holder {
+  background: url('https://d.newsweek.com/en/full/1560898/donald-trump.jpg?w=397&h=295&f=495ab9bdf1d2d40fc57378459adc799d');
+}
+
+.editors-pick-image-holder-2 {
+  background: url('https://d.newsweek.com/en/full/1560658/snooty-honorable-mention-portrait.jpg?w=397&h=295&f=797c73914e0a8ffb89dc548f63ac73bf');
+}
+
+/* <<< FEATURED SLIDESHOWS >>> */
+
+.cust-magic-container {
+  position: relative;
+  width: 45px;
+  height: 45px;
+}
+
+.cust-magic-div-1 {
+  position: absolute;
+  background: #f72210;
+  width: 40px;
+  height: 40px;
+  bottom: 2px;
+  right: 0;
+}
+
+.cust-magic-div-2 {
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  height: 40px;
+  width: 40px;
+  background-color: #f72210;
+  color: #fff;
+  position: absolute;
+  right: 5px;
+  bottom: 6px;
+}
+
+.fs-img-div {
+  background: url('https://d.newsweek.com/en/full/1552749/eyjafjallajokull-iceland.jpg?w=397&h=265&f=ea1ffc67b32c527ef435529cb5bd2dc6');
+}
+
+.fs-img-div-2 {
+  background: url('https://d.newsweek.com/en/full/1534277/nycc-2019-best-cosplay-augustus-st-cloud.jpg?w=397&h=265&l=22&t=27&f=db0895c475d903e09b054be0c3cfb8c5');
+}
+
+.fs-img-div-3 {
+  background: url('https://d.newsweek.com/en/full/1542741/holiday-cups-starbucks.jpg?w=397&h=265&f=cc7b0a58452583ca846051991fe522ce');
+}
+
+.fs-img-logo-holder {
+  background: #e0e2e3;
+  min-width: 75px;
+  height: 55px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.fsh-1,
+.fsh-2,
+.fsh-3 {
+  border: 2px solid #f72210;
+  border-bottom: none;
+  height: 30px;
+  width: 45px;
+  position: absolute;
+  background: #e0e2e3;
+  color: #f72210;
+}
+
+.fsh-1 {
+  top: 8px;
+  left: 8px;
+}
+
+.fsh-2 {
+  top: 15px;
+  left: 15px;
+}
+
+.fsh-3 {
+  top: 20px;
+  left: 20px;
+  border-bottom: 2px solid #f72210 !important;
+  font-size: 25px;
+}
+
+/* Unique sections */
+.first-big-img-hol,
+.second-big-img-hol,
+.smaller-side-imgs-hol,
+.smaller-side-imgs-hol-world,
+.smaller-side-imgs-hol-sports,
+.first-big-img-hol-sports,
+.second-big-img-hol-sports {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.first-big-img-hol,
+.second-big-img-hol,
+.first-big-img-hol-sports,
+.second-big-img-hol-sports {
+  height: 250px;
+  min-width: 100px;
+}
+
+.smaller-side-imgs-hol,
+.smaller-side-imgs-hol-world,
+.smaller-side-imgs-hol-sports {
+  height: 90px;
+  min-width: 150px;
+}
+
+.first-big-img-hol {
+  background: url('https://d.newsweek.com/en/full/1561159/starpass-popcorn-day.jpg?w=397&h=265&f=1d64d6ceafbca5a037a2eedd843aedfd');
+}
+
+.second-big-img-hol {
+  background: url('https://d.newsweek.com/en/full/1561198/virginia-capitol.jpg?w=397&h=265&f=9be3584de0f4691dc08983aebbc299b4');
+}
+
+.first-big-img-hol-sports {
+  background: url('https://d.newsweek.com/en/full/1561212/serena-williams-australian-open.jpg?w=397&h=265&f=ff47b028d173924b312fd6deac3e5be0');
+}
+
+.second-big-img-hol-sports {
+  background: url('https://d.newsweek.com/en/full/1559680/aaron-rodgers-jimmy-garoppolo.jpg?w=397&h=265&f=2f87633b41e9479a846b17b70e4afece');
+}
+
+.smaller-side-imgs-hol {
+  background: url('https://d.newsweek.com/en/full/1561189/semi-automatic-rifles.jpg?w=135&h=90&f=e24e21c03a9bdf63477ff70308b0f80f');
+}
+
+.smaller-side-imgs-hol-world {
+  background-image: url('https://d.newsweek.com/en/full/1560699/yukon.jpg?w=135&h=90&f=f0c9724f09d21d944dfbb1072487ae6a');
+}
+
+.smaller-side-imgs-hol-sports {
+  background-image: url('https://d.newsweek.com/en/full/1559666/patrick-mahomes-kansas-city-chiefs.jpg?w=135&h=90&f=ea90b9295a7e7a87cdbfa2d6bd63c724');
+}
+
+/* subscription and newsletter section  */
+.subscribe-jumbo {
+  background-color: #f4f5f6;
+}
+
+.subscribe-jumbo,
+.newsletter-section-cont {
+  min-height: 260px;
+  text-align: center;
+}
+
+.btn-subscribe-section {
+  background: #f72210;
+  border: 2px solid #f72210;
+  height: 35px;
+}
+
+.red-section-header {
+  color: #f72210;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.subscribe-sect-image-holder {
+  position: relative;
+  margin: 0 20%;
+}
+
+.sub-sect-img-2 {
+  position: absolute;
+  left: 80px;
+  top: 15px;
+}
+
+.newsletter-img {
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+}
+
+/* <<<<< Footer >>>>> */
+.socials-icon-footer {
+  font-size: 150% !important;
+  color: #666;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 768px) {
+  .btn-subscribe-nav {
+    margin-left: 10px !important;
+    margin-right: 25px !important;
+  }
+
+  .sign-in-nav {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    height: 90px;
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .navbar-brand-c {
+    position: absolute;
+    margin-left: 30% !important;
+    font-size: 93px;
+    padding: 0 !important;
+  }
+
+  .nav-icons-container {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+  }
+}
