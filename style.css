@@ -339,8 +339,7 @@ footer a:hover {
   background: url('https://d.newsweek.com/en/full/1560658/snooty-honorable-mention-portrait.jpg?w=397&h=295&f=797c73914e0a8ffb89dc548f63ac73bf');
 }
 
-
-/* FEATURED SLIDESHOWS */
+/* <<< FEATURED SLIDESHOWS >>> */
 
 .cust-magic-container {
   position: relative;
@@ -419,7 +418,6 @@ footer a:hover {
   font-size: 25px;
 }
 
-
 /* Unique sections */
 .first-big-img-hol,
 .second-big-img-hol,
@@ -474,7 +472,6 @@ footer a:hover {
 .smaller-side-imgs-hol-sports {
   background-image: url('https://d.newsweek.com/en/full/1559666/patrick-mahomes-kansas-city-chiefs.jpg?w=135&h=90&f=ea90b9295a7e7a87cdbfa2d6bd63c724');
 }
-
 
 /* subscription and newsletter section  */
 .subscribe-jumbo {
