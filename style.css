@@ -1,6 +1,22 @@
 body {
-  background-color: #E0E2E3;
+  background-color: #e0e2e3;
   font-family: 'Open Sans', sans-serif;
+}
+
+footer a,
+footer p {
+  color: #666;
+  border-right: 2px solid lightgray;
+  font-size: 14px;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #333;
+  text-decoration: none;
 }
 
 .container-fluid {
@@ -14,16 +30,17 @@ body {
 }
 
 .navbar {
-  background-color: #F72210 !important;
+  background-color: #f72210 !important;
   height: 50px;
   position: relative;
 }
 
 .date-parag-nav {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   font-weight: 500;
 }
+
 .navbar-brand-c {
   font-family: 'Zilla Slab', serif;
   font-weight: 700;
@@ -34,11 +51,7 @@ body {
   font-family: 'Zilla Slab', serif;
   font-weight: 700;
   font-size: 55px;
-  color: #F72210;
-}
-
-.navbar a {
-  color: #fff;
+  color: #f72210;
 }
 
 .navbar a:hover {
@@ -55,7 +68,7 @@ body {
 
 .btn-subscribe-nav span {
   font-size: 20px;
-} 
+}
 
 .nav-icons-container {
   width: 200px;
@@ -63,7 +76,7 @@ body {
 
 .icon-menu {
   font-size: 28px !important;
-  color: #E0E2E3;
+  color: #e0e2e3;
 }
 
 /* << lower nav-section desktop >> */
@@ -75,7 +88,7 @@ body {
 }
 
 .lower-dexktop-nav li:hover {
-  color: #F72210;
+  color: #f72210;
 }
 
 .lower-dexktop-nav li:last-child:hover {
@@ -83,8 +96,8 @@ body {
 }
 
 .navbar-search {
- width: 55px;
- font-size: 17px;
+  width: 55px;
+  font-size: 17px;
 }
 
 .navbar-search:focus {
@@ -92,25 +105,26 @@ body {
 }
 
 .skew-shape {
-  position: relative;
   height: 15px;
   width: 70px;
   transform: skewY(360deg);
   transform: skewX(40deg);
-  background-color: #F72210;
+  background-color: #f72210;
   position: absolute;
-  top: 0px;
+  top: 0;
   right: 0;
 }
 
 /* top-three-categories */
+
 /* top-stories */
 .section-headings {
   color: grey;
   font-size: 18px;
 }
 
-.top-story-image-holder, .feature-story-image-holder {
+.top-story-image-holder,
+.feature-story-image-holder {
   background-size: contain;
   background-repeat: no-repeat !important;
   position: relative;
@@ -134,7 +148,7 @@ body {
   bottom: 0;
   min-width: 55px;
   height: 30px;
-  background-color: #E0E2E3;
+  background-color: #e0e2e3;
 }
 
 .more-story-unit-img {
@@ -146,7 +160,7 @@ body {
 }
 
 .culture-and-travel-bg {
-  background: #F4F5F7;
+  background: #f4f5f7;
 }
 
 /* LATEST NEWS */
@@ -158,13 +172,13 @@ body {
   width: 150px;
 }
 
-
 .jumbotron {
   max-width: 375px !important;
   max-height: 200px !important;
 }
+
 .logo-in-jumbotron {
-  background: #F72210;
+  background: #f72210;
   width: 28px;
   height: 28px;
 }
@@ -188,7 +202,8 @@ body {
   height: 450px;
 } */
 
-.in-the-mag-pic, .in-the-mag-pic-spec,
+.in-the-mag-pic,
+.in-the-mag-pic-spec,
 .in-the-mag-pic-2 {
   min-height: 200px;
   min-width: 60px;
@@ -197,7 +212,7 @@ body {
 }
 
 .in-the-mag-pic {
-  background: url('https://d.newsweek.com/en/full/1558983/wirecutter-credit-card-debt.jpg?w=466&h=311&q=90&f=a3bc13ecd27eefb91197a7b7e7d4b8a7');  
+  background: url('https://d.newsweek.com/en/full/1558983/wirecutter-credit-card-debt.jpg?w=466&h=311&q=90&f=a3bc13ecd27eefb91197a7b7e7d4b8a7');
 }
 
 .in-the-mag-pic-2 {
@@ -205,13 +220,13 @@ body {
 }
 
 .custo-label {
-  background: #F72210;
+  background: #f72210;
   height: 25px;
   min-width: 55px;
 }
 
 .custo-text {
-  color: #F72210;
+  color: #f72210;
 }
 
 .in-the-mag-pic-spec {
@@ -220,7 +235,7 @@ body {
 }
 
 .custo-label-spec {
-  background: #F72210;
+  background: #f72210;
   min-width: 50px;
   height: 25px;
   position: absolute;
@@ -242,8 +257,9 @@ body {
   position: relative;
 }
 
-.play-label-bg, .play-label-sm {
-  background-color: #F72210;
+.play-label-bg,
+.play-label-sm {
+  background-color: #f72210;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -270,22 +286,22 @@ body {
 .dark-bg-col > :first-child {
   font-size: 26px;
 }
-.svm-1, .svm-2, .svm-3 {
+
+.svm-1,
+.svm-2,
+.svm-3 {
   background-color: black;
   margin-top: 1px;
   margin-left: 1px;
-}
-.smaller-conv-img-1, .smaller-conv-img-2, 
-.smaller-conv-img-3 {
-  position: relative;  
 }
 
 .smaller-conv-capt-1 > p:last-child {
   color: #555;
 }
 
-.smaller-conv-img-2, .smaller-conv-img-3,
-.smaller-conv-img-1 {
+.smaller-conv-img-1,
+.smaller-conv-img-2,
+.smaller-conv-img-3 {
   height: 95px;
   min-width: 150px;
   background-size: cover !important;
@@ -296,13 +312,18 @@ body {
 .smaller-conv-img-1 {
   background: url('https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95');
 }
-.smaller-conv-img-3, .smaller-conv-img-2 {
+
+.smaller-conv-img-3,
+.smaller-conv-img-2 {
   background: url('https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg?w=173&h=104&f=64f6b307bd86eb7c5a0a44276471bf7f');
 }
 
 /* EDITOR'S PICK */
-.editors-pick-image-holder, .editors-pick-image-holder-2, 
-.fs-img-div, .fs-img-div-2, .fs-img-div-3{
+.editors-pick-image-holder,
+.editors-pick-image-holder-2,
+.fs-img-div,
+.fs-img-div-2,
+.fs-img-div-3 {
   min-height: 200px;
   min-width: 100px;
   background-size: cover !important;
@@ -329,11 +350,11 @@ body {
 
 .cust-magic-div-1 {
   position: absolute;
-  background: #F72210;
+  background: #f72210;
   width: 40px;
   height: 40px;
   bottom: 2px;
-  right: 0px;
+  right: 0;
 }
 
 .cust-magic-div-2 {
@@ -341,7 +362,7 @@ body {
   border-bottom: 2px solid #fff;
   height: 40px;
   width: 40px;
-  background-color: #F72210;
+  background-color: #f72210;
   color: #fff;
   position: absolute;
   right: 5px;
@@ -361,7 +382,7 @@ body {
 }
 
 .fs-img-logo-holder {
-  background: #E0E2E3;
+  background: #e0e2e3;
   min-width: 75px;
   height: 55px;
   position: absolute;
@@ -369,14 +390,16 @@ body {
   bottom: 0;
 }
 
-.fsh-1, .fsh-2, .fsh-3 {
-  border: 2px solid #F72210;
+.fsh-1,
+.fsh-2,
+.fsh-3 {
+  border: 2px solid #f72210;
   border-bottom: none;
   height: 30px;
   width: 45px;
   position: absolute;
-  background: #E0E2E3;
-  color: #F72210;
+  background: #e0e2e3;
+  color: #f72210;
 }
 
 .fsh-1 {
@@ -392,28 +415,33 @@ body {
 .fsh-3 {
   top: 20px;
   left: 20px;
-  border-bottom: 2px solid #F72210 !important;
+  border-bottom: 2px solid #f72210 !important;
   font-size: 25px;
 }
 
 
 /* Unique sections */
-.first-big-img-hol, .second-big-img-hol,
-.smaller-side-imgs-hol, .smaller-side-imgs-hol-world,
-.smaller-side-imgs-hol-sports, .first-big-img-hol-sports
-.second-big-img-hol-sports
- {
+.first-big-img-hol,
+.second-big-img-hol,
+.smaller-side-imgs-hol,
+.smaller-side-imgs-hol-world,
+.smaller-side-imgs-hol-sports,
+.first-big-img-hol-sports,
+.second-big-img-hol-sports {
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
 
-.first-big-img-hol, .second-big-img-hol,
-.first-big-img-hol-sports, .second-big-img-hol-sports{
+.first-big-img-hol,
+.second-big-img-hol,
+.first-big-img-hol-sports,
+.second-big-img-hol-sports {
   height: 250px;
   min-width: 100px;
 }
 
-.smaller-side-imgs-hol, .smaller-side-imgs-hol-world,
+.smaller-side-imgs-hol,
+.smaller-side-imgs-hol-world,
 .smaller-side-imgs-hol-sports {
   height: 90px;
   min-width: 150px;
@@ -429,7 +457,7 @@ body {
 
 .first-big-img-hol-sports {
   background: url('https://d.newsweek.com/en/full/1561212/serena-williams-australian-open.jpg?w=397&h=265&f=ff47b028d173924b312fd6deac3e5be0');
-} 
+}
 
 .second-big-img-hol-sports {
   background: url('https://d.newsweek.com/en/full/1559680/aaron-rodgers-jimmy-garoppolo.jpg?w=397&h=265&f=2f87633b41e9479a846b17b70e4afece');
@@ -450,22 +478,23 @@ body {
 
 /* subscription and newsletter section  */
 .subscribe-jumbo {
-  background-color: #F4F5F6;
+  background-color: #f4f5f6;
 }
 
-.subscribe-jumbo, .newsletter-section-cont {
+.subscribe-jumbo,
+.newsletter-section-cont {
   min-height: 260px;
   text-align: center;
 }
 
 .btn-subscribe-section {
-  background: #F72210;
-  border: 2px solid #F72210;
+  background: #f72210;
+  border: 2px solid #f72210;
   height: 35px;
 }
 
 .red-section-header {
-  color: #F72210;
+  color: #f72210;
   font-size: 18px;
   font-weight: 600;
 }
@@ -477,9 +506,6 @@ body {
 
 .sub-sect-img-2 {
   position: absolute;
-}
-
-.sub-sect-img-2 {
   left: 80px;
   top: 15px;
 }
@@ -490,21 +516,10 @@ body {
   background-repeat: no-repeat !important;
 }
 
-/*<<<<< Footer >>>>>*/
+/* <<<<< Footer >>>>> */
 .socials-icon-footer {
   font-size: 150% !important;
-  color: #666666;
-}
-
-footer a, footer p {
-  color: #666666;
-  border-right: 2px solid lightgray;
-  font-size: 14px;
-}
-
-footer a:hover {
-  color: #333;
-  text-decoration: none;
+  color: #666;
 }
 
 /* MEDIA QUERIES */
