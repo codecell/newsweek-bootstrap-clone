@@ -30,6 +30,13 @@ body {
   font-size: 30px;
 }
 
+.nw-brand-footer {
+  font-family: 'Zilla Slab', serif;
+  font-weight: 700;
+  font-size: 55px;
+  color: #F72210;
+}
+
 .navbar a {
   color: #fff;
 }
@@ -140,16 +147,6 @@ body {
 
 .culture-and-travel-bg {
   background: #F4F5F7;
-}
-
-.opinioner {
-  height: 70px !important;
-  width: 88px !important;
-  border-radius: 8% !important;
-  background: url('https://d.newsweek.com/en/full/1503272/ryan-thomas.png?w=63&h=63&f=375a4e1eacacb10b512934749dfad37e');
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: left top;
 }
 
 /* LATEST NEWS */
@@ -491,6 +488,23 @@ body {
   height: 150px;
   background-size: cover;
   background-repeat: no-repeat !important;
+}
+
+/*<<<<< Footer >>>>>*/
+.socials-icon-footer {
+  font-size: 150% !important;
+  color: #666666;
+}
+
+footer a, footer p {
+  color: #666666;
+  border-right: 2px solid lightgray;
+  font-size: 14px;
+}
+
+footer a:hover {
+  color: #333;
+  text-decoration: none;
 }
 
 /* MEDIA QUERIES */
