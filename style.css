@@ -173,8 +173,8 @@ footer a:hover {
 }
 
 .jumbotron {
-  max-width: 375px !important;
-  max-height: 200px !important;
+  min-width: 200px !important;
+  min-height: 210px !important;
 }
 
 .logo-in-jumbotron {
@@ -197,10 +197,6 @@ footer a:hover {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-/* .in-the-mag-unit {
-  height: 450px;
-} */
 
 .in-the-mag-pic,
 .in-the-mag-pic-spec,
